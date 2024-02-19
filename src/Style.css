@@ -1,0 +1,137 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #1c1c1c;
+  color: #293264;
+}
+
+.main {
+  min-height: 100vh;
+  max-width: 700px;
+  background-color: #f5f7fb;
+  margin: auto;
+  align-self: center;
+  background-image: url(./images/top-right.png), url(./images/bottom-left.png);
+  background-repeat: no-repeat;
+  background-position: right top, left bottom;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+}
+
+
+.starter {
+  text-align: center;
+}
+
+.start-heading {
+  font-family: Karla;
+  font-weight: 700;
+  font-size: 31px;
+}
+
+.start-description {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 3px 0 30px;
+}
+
+.start-btn {
+  background: #4d5b9e;
+  border-radius: 15px;
+  padding: 20px 60px;
+  border: none;
+  color: #f5f7fb;
+  font-family: Inter;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.start-btn:hover {
+  background: #293264;
+}
+
+
+.quizzes {
+  width: 90%;
+}
+
+.quiz {
+  padding: 15px 0;
+  border-bottom: 0.8px solid #dbdef0;
+}
+
+.quiz-question {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.quiz-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.quiz-option {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 11px;
+  border: 0.8px solid #4d5b9e;
+  border-radius: 8px;
+  padding: 4px 15px;
+  cursor: pointer;
+}
+
+.quiz-option:hover {
+  background-color: #d6dbf5;
+}
+
+.quizzes-btn_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.quizzes-btn {
+  background: #4d5b9e;
+  border-radius: 15px;
+  padding: 20px 40px;
+  border: none;
+  color: #f5f7fb;
+  font-family: Inter;
+  font-weight: 500;
+  cursor: pointer;
+  text-align: center;
+}
+
+.quizzes-btn:hover {
+  background-color: #293264;
+}
+
+.score-text {
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 13px;
+}
+
+
+.selected {
+  background-color: #d6dbf5;
+}
+
+.correct {
+  background-color: #94d7a2;
+}
+
+.incorrect {
+  background-color: #f8bcbc;
+}
